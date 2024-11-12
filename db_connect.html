@@ -1,0 +1,15 @@
+
+<?php
+$servername = "localhost";
+$username = "root"; // Substitua pelo usuário correto do banco
+$password = ""; // Substitua pela senha correta do banco
+$dbname = "champions";
+
+// Cria a conexão
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Verifica a conexão
+if ($conn->connect_error) {
+    die("Conexão falhou: " . $conn->connect_error);
+}
+?>

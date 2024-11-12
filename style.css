@@ -1,0 +1,106 @@
+/* Estilo base */
+body {
+    background-color: #121212;
+    color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header.navbar {
+    background-color: #1f1f1f;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #e5e5e5;
+}
+
+.card {
+    background: #242424;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #e63946;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background: #d62828;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background: #e63946;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-danger:hover {
+    background: #d62828;
+    transform: scale(1.05);
+}
+
+.btn-outline-light {
+    color: #e5e5e5;
+    border-color: #e5e5e5;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+.btn-outline-light:hover {
+    background: #e5e5e5;
+    color: #1f1f1f;
+    transform: scale(1.05);
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.navbar-brand i {
+    margin-right: 10px;
+}
+
+.table-dark {
+    background-color: #292b2c;
+}
+
+.table-danger th {
+    background-color: #d62828;
+}
+
+footer p {
+    margin: 0;
+}
+
+.signup-prompt a {
+    color: #e63946;
+    text-decoration: none;
+}
+
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+.card-header {
+    background-color: #333;
+    border-bottom: 2px solid #e63946;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+}
